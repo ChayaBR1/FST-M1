@@ -3,7 +3,7 @@
 Feature: Data driven test with Data Table
 
   Scenario: Testing with Data from Data Table
-    Given User is on Login page
+    Given the user is on Login page
     When User enters Usernames and Password
       | usernames | password |
       | admin     | password |
